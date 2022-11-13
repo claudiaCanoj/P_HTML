@@ -1,0 +1,128 @@
+.topnav {
+		background-color: #333;
+		overflow: hidden;
+		font-family: Arial;
+	}
+
+	.topnav a {
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.topnav a.active {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+
+	.topnav-right {
+	  float: right;
+	}
+  
+	.content {
+		margin:100px;
+		font-family: Arial;
+	}
+	
+	.content_image {
+	  margin: auto;
+	  display: block;
+	}
+
+    #header_photo{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+    }
+    .t_photo{
+      position:absolute;
+	  top: 150px;
+      text-align: center; 
+      color: white;
+      font-family: Arial;
+    }
+    .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+	.container {
+	  position: relative;
+	  text-align: center;
+	  color: white;
+	  top: 5px;
+	}
+	
+	.habilidades{
+  width: 600px;
+  margin: auto;
+  border: 1px solid;
+  padding: 10px;
+  border-radius:10px;
+}
+.container{
+  width: 100%;
+  background-color: rgb(228, 222, 234);
+  border-radius:10px;
+}
+.skills{
+  text-align: right;
+  padding: 10px;
+  color:white;
+  font-weight: bold;
+  border-radius:10px;
+}
+.html{
+  background-color: #04aa6d;
+  animation: fillhtml 4s forwards;
+}
+.css{
+  background-color: #e4ee19;
+  animation: fillcss 4s forwards;
+}
+.javascript{
+  background-color: #e12cdb;
+  animation: filljavascript 4s forwards;
+}
+.python{
+  background-color: #43c3dc;
+  animation: fillpython 4s forwards;
+}
+.php{
+  background-color: #f56709;
+  animation: fillphp 4s forwards;
+}
+@keyframes fillhtml{
+  0%{top: 0px; background: rgb(185, 234, 195); width: 0px;}
+  100%{width: 90%;}
+}
+@keyframes fillcss{
+  0%{top: 0px; background: rgb(240, 5, 107); width: 0px;}
+  100%{width: 70%;}
+}
+@keyframes filljavascript{
+  0%{top: 0px; background: rgb(238, 115, 168); width: 0px;}
+  100%{width: 30%;}
+}
+@keyframes fillpython{
+  0%{top: 0px; background: rgb(5, 13, 245); width: 0px;}
+  100%{width: 80%;}
+}
+@keyframes fillphp{
+  0%{top: 0px; background: rgb(247, 6, 6); width: 0px;}
+  100%{width: 75%;}
+}
+	@media only screen and (max-width: 600px) {
+		.content {			
+			font-family: Arial;
+			margin: 0px;
+		}
+	}
